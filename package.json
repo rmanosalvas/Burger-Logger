@@ -1,0 +1,30 @@
+{
+  "name": "burger-logger",
+  "version": "1.0.0",
+  "description": "An application for eating burgers!",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm run test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rmanosalvas/Burger-Logger.git"
+  },
+  "keywords": [
+    "burger",
+    "handlebars",
+    "express"
+  ],
+  "author": "Ricardo Manosalvas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rmanosalvas/Burger-Logger/issues"
+  },
+  "homepage": "https://github.com/rmanosalvas/Burger-Logger#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.1.0",
+    "mysql": "^2.18.1"
+  }
+}
